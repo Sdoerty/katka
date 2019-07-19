@@ -1,0 +1,79 @@
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  height: 100%;
+}
+table caption {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 10px;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+font-family: "Roboto Slab",serif;
+font-style: normal;
+font-size: 26px;
+text-align: center;
+margin: 0;
+height: 70px;
+
+}
+table tr:nth-child(2n) {
+  background: #F6F6F6;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+
+table td{
+  height: 60px;
+  padding: .625em;
+  text-align: center;
+  font-size: .99em;
+}
+
+table th {
+  padding: .625em;
+  text-align: center;
+  height: 80px;
+  font-size: .99em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  background: #89D6DF;
+}
+table tr:hover {
+    background: #66CDAA; /* Цвет фона при наведении */
+    color: #fff; /* Цвет текста при наведении */
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    display: none;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
