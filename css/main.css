@@ -6,6 +6,16 @@ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
  background: #FFf;
 }
 
+.btnsort{
+  float: right;
+  margin-right: 25px;
+}
+
+.btnnav{
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
 .btncreate{
 
   float: left;
@@ -63,7 +73,7 @@ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
  }
  .btnpublications{
 float: left;
-margin-top: 0.6em;
+
 margin-left: 20px;
   text-decoration:none; 
   text-align:center; 
@@ -194,7 +204,7 @@ ul.top-nag  a{
     font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
-   margin-top: 13px;
+   margin-top: 7px;
     display: inline-block;
 }
 ul.top-nag  a:hover,ul.top-nag  a.active{
@@ -206,7 +216,6 @@ ul.top-nag  a.active{
 .search-box{
   float: left;
   width:15%;
-  margin-top: 0.6em;
   margin-left: 20px;
 }
 .b-search{
