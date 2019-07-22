@@ -64,6 +64,7 @@ font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
  .btnpublications{
 float: left;
 margin-top: 0.6em;
+margin-left: 20px;
   text-decoration:none; 
   text-align:center; 
  padding:11px 32px; 
@@ -156,6 +157,12 @@ ul{
 label{
 	margin:0;
 }
+
+
+.top-header{
+  margin-left: 100px;
+}
+
 .h-top{
   top:0;
 -webkit-box-shadow: 0px 3px 6px 0px rgba(50, 50, 50, 0.33);
@@ -187,11 +194,11 @@ ul.top-nag  a{
     font-size: 0.9em;
     font-weight: 600;
     text-transform: uppercase;
-   padding: 20px 20px;
+   margin-top: 13px;
     display: inline-block;
 }
 ul.top-nag  a:hover,ul.top-nag  a.active{
-    background-color: #009EA9;
+    
 }
 ul.top-nag  a.active{
   color: #F5FFFA;
@@ -200,6 +207,7 @@ ul.top-nag  a.active{
   float: left;
   width:15%;
   margin-top: 0.6em;
+  margin-left: 20px;
 }
 .b-search{
     position: relative;
@@ -436,12 +444,12 @@ nav a:focus {
 }
 .banner-section{
     border: 1px solid #ccc;
-  height: 800px;
+  height: 100vh;
+  position: relative;
   overflow: scroll;
   overflow-x: hidden;
     width: 64%;
     float: left;
-    margin-top: 15px;
     margin-left: 30px;
    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.75);
@@ -2324,7 +2332,7 @@ ul.bottom i {
 		margin-left: 0.4em;
 	}
 	.top-header {
-
+      
        padding: 0em 1em;
 	}
 
@@ -2862,6 +2870,7 @@ ul.bottom i {
 	h3.tittle.reg {
 		font-size: 1.3em;
 	}
+
 	.sign-up1 {
 		float: left;
 		width: 100%;
