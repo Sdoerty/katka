@@ -457,12 +457,10 @@ nav a:focus {
   position: relative;
   overflow: scroll;
   overflow-x: hidden;
-    width: 64%;
+    width: 63%;
     float: left;
     margin-left: 30px;
-   -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.75);
+   
 border-radius: 16px 16px 0px 0px;
 -moz-border-radius: 16px 16px 0px 0px;
 -webkit-border-radius: 16px 16px 0px 0px;
@@ -1535,16 +1533,14 @@ p.reply i{
     color: #f26649;
 }
 /*--footer--*/
-.footer {
-  
-  text-align: center;
-      padding: 2em 0;
-    background-color: #111;
+
+.footer{
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
-.footer-grid h4 {
-    color: #fff;
-    font-size: 1.8em;
-}
+
 ul.bottom{
  margin-top:1.6em;
 }
@@ -1788,9 +1784,7 @@ ul.bottom i {
 	.logo a h1 {
       font-size: 2.2em;
 	}
-	.footer-grid h4 {
-		font-size: 1.6em;
-	}
+
 	h3.tittle {
       font-size: 1.8em;
 	}
@@ -2618,9 +2612,7 @@ ul.bottom i {
 	.sign-up-form {
 		padding: 2em 1em;
 	}
-	.footer-grid h4 {
-		font-size: 1.4em;
-	}
+
 	.login {
 		padding: 2em 1em;
 	}
